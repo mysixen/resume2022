@@ -391,13 +391,13 @@
                                           <td>代价</td>
                                           <td>9.1</td>
                                       </tr>
-{#                                  {% for info in infos %}#}
-{#                                      <tr>#}
-{#                                          <td>{{ info[0] }}</td>#}
-{#                                          <td>{{ info[1] }}</td>#}
-{#                                          <td>{{ info[2] }}</td>#}
-{#                                      </tr>#}
-{#                                  {% endfor %}#}
+                                 <!--{% for info in infos %}
+                                      <tr>
+                                          <td>{{ info[0] }}</td>
+                                          <td>{{ info[1] }}</td>
+                                          <td>{{ info[2] }}</td>
+                                      </tr>
+                              {% endfor %}#}-->
                               </table>
 							</ul>
 						</div>
@@ -432,8 +432,8 @@
                                         {
                                           type: 'category',
                                           data: ['历史文化', '影视戏剧', '社科纪实', '科学新知', '艺术设计'],
-                                          {#data: {{score|safe}},#}
-    {#                                {{变量| safe}}避免转义，变量是文字的score#}
+                                        <!--     {#data: {{score|safe}},#}-->
+                                     <!--  {{变量| safe}}避免转义，变量是文字的score#-->
                                           axisTick: {
                                             alignWithLabel: true
                                           }
