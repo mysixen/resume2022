@@ -231,16 +231,11 @@ if it's not present, don't show loader */
     margin: 0 5px;
     line-height: 1;
     color: #393e42;
-    font-size: 15px;
+    font-size: 12px;
     position: relative;
     display: inline-block;
 }
-.blog-meta li:first-child {
-    margin-left: 0 !important;
-}
-.blog-meta li:last-child {
-    margin-right: 0 !important;
-}
+
 .blog-meta li i {
     margin: 0 5px 0 0;
 }
